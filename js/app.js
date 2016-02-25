@@ -1,5 +1,3 @@
-$(document).foundation();
-
 var API_ENDPOINT = 'http://en.wikipedia.org/w/api.php?';
 var $searchButton = $('.search-button');
 var $searchField = $('.search-query');
