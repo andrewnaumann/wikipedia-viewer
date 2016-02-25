@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.3/css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="search-message"><span class="start-search">Use the search box above to see results.</span>
+   <span class="no-results">No results found.</span> 
+    </div>
+    <div class="search-container">
+      <div class="row">
+        <div class="small-12 medium-4 search-container-inner columns">
+          <div class="user-input input-group">
+            <input class="search-query input-group-field" placeholder="Search Wikipedia" type="text"><div class="input-group-button">
+              <button class="button search-button "><span class="icon-magnifier"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="small-12 medium-4 columns">
+        <ul class="results">
+
+        </ul>
+      </div> 
+        <div class="small-12 medium-8 large-7 large-pull-1 columns extract-container">
+          <div class="extract empty">
+          </div>
+        </div>
+      </div>  
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="bower_components/what-input/what-input.js"></script>
+    <script src="bower_components/foundation-sites/dist/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
