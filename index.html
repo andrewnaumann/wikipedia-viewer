@@ -4,13 +4,28 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wikipedia Viewer</title>
+    <title>Andrew Naumann | Wikipedia Viewer</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.3/css/simple-line-icons.css">
     <link rel="stylesheet" href="css/app.css">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-56504415-2', 'auto');
+      ga('send', 'pageview');
+    </script>
   </head>
   <body>
     <div class="search-message"><span class="start-search">Use the search box above to see results.</span>
-   <span class="no-results">No results found.</span> 
+   <span class="no-results">No results found.</span>
     </div>
     <div class="search-container">
       <div class="row">
@@ -23,18 +38,18 @@
         </div>
       </div>
     </div>
-    
+
     <div class="row">
       <div class="small-12 medium-4 columns">
         <ul class="results">
 
         </ul>
-      </div> 
+      </div>
         <div class="small-12 medium-8 large-7 large-pull-1 columns extract-container">
           <div class="extract empty">
           </div>
         </div>
-      </div>  
+      </div>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
